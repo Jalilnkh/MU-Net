@@ -55,17 +55,20 @@ For running the model for training and testing, make sure all dependencies are i
 Then run the following,
 ### [optional]
 if you want to augment your data you can run first the following:
-python Augment_datasets.py
+
+    python Augment_datasets.py
 
 This will will create the augmented images and masks for all the image sets which can be used for training
 
 ### Now run the following,
 
-python MobV2-U-NetSSBC2020.py
+    python MobV2-U-NetSSBC2020.py
+
 This will save the model weights in current folder.
 
 ## 9. Testing
 Run the following
 
-python predict_test_IMG.py
+    python predict_test_IMG.py
+
 All the results will be saved in the folder with the mentioned name.
