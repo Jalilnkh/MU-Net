@@ -3,7 +3,7 @@ U-Net Model for Sclera Segmentation in the Mobile Environment using a Transfer L
 
 
 This repository contains the implementation of a U-Net architecture using Keras with Tensorflow at its backened for segmenting Sclera using a Transfer Learning approach. 
- # 1- Proposed method
+ ## 1- Proposed method
 
 The proposed approach employs a U-Net inspired model conditioned on MobileNetV2 class features to segment sclera and background in an eye, where two-stage fine-tuning was applied to the MobileNetV2 model. The data was augmented by different models.
 
@@ -59,7 +59,7 @@ python Augment_datasets.py
 
 This will will create the augmented images and masks for all the image sets which can be used for training
 
-Now run the following,
+## Now run the following,
 
 python MobV2-U-NetSSBC2020.py
 This will save the model weights in current folder.
