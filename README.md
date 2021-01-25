@@ -52,6 +52,8 @@ Matplotlib
 ### 8. Running the train
 For running the model for training and testing, make sure all dependencies are installed properly.
 
+In the existing code there are some part which you can use your own dataset path to run properly. (mentioned in code)
+
 Then run the following,
 ### [optional]
 if you want to augment your data you can run first the following:
