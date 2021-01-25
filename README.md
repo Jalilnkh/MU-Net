@@ -78,10 +78,11 @@ All the results will be saved in the folder with the mentioned name.
 # Reference
 
 [1] https://idiotdeveloper.com/unet-segmentation-with-pretrained-mobilenetv2-as-encoder/
+
 [2] https://github.com/NirmalElamon/UNet-model-for-Segmentation
 
 # Citation
 
 Please dont remember to cite when you are using this code for your reseach applications
 
-      Vitek, M., et al., SSBC 2020: Sclera Segmentation Benchmarking Competition in the Mobile Environment. In 2020 IEEE International Joint Conference on Biometrics (IJCB) (pp. 1-10). IEEE.
+[1] Vitek, M., et al., SSBC 2020: Sclera Segmentation Benchmarking Competition in the Mobile Environment. In 2020 IEEE International Joint Conference on Biometrics (IJCB) (pp. 1-10). IEEE.
