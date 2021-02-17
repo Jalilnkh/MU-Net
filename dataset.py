@@ -83,6 +83,6 @@ def get_samples_path_list(dir_path):
 
 if __name__ == "__main__":
     # you can your own dataset path
-    path = "/home/amber/Desktop/OpenEDS2020Competition/SemanticSegmentationIrisEye/openEDS2020-SparseSegmentation/participant"
+    path = "~/data/"
     X_train, X_test, Y_train, Y_test = split(path, 0.01)
     illustrate(X_test, Y_test, ncols=3)
