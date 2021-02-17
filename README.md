@@ -40,14 +40,14 @@ Prerequisites
 
 ### The following dependencies are required to run the U-Net model:
 
-Keras with Tensorflow at it's backend
-numpy
-skimage
-Pillow
-OpenCV
-h5py
-Scikit learn
-Matplotlib
+    Keras with Tensorflow at it's backend
+    numpy
+    skimage
+    Pillow
+    OpenCV
+    h5py
+    Scikit learn
+    Matplotlib
 
 ### 8. Running the train
 For running the model for training and testing, make sure all dependencies are installed properly.
