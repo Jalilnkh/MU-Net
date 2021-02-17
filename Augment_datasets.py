@@ -23,7 +23,7 @@ def x_of(path):
 def train_set():
     X = []
     Y = []
-    for y in take_files("./participant", "*.npy"):
+    for y in take_files("./data", "*.npy"):
         y = str(y)
         x = x_of(y)
         if exists(x):
@@ -53,7 +53,7 @@ def split_train_set(X, Y, split):
 def test_set():
     X = []
     X_train, _ = train_set()
-    for x in take_files("./participant", "*.png"):
+    for x in take_files("./data", "*.png"):
         if str(x) not in X_train:
             X.append(str(x))
     return X
