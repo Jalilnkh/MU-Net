@@ -20,7 +20,7 @@ np.random.seed(42)
 print("TensorFlow Version: ", tf.__version__)
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 # you can your own dataset path
-PATH = "/home/amber/Desktop/SSBC2020/Dropbox/"
+PATH = "~/data/"
 
 X_train = np.zeros((Number_of_traininSet, IMAGE_SIZE, IMAGE_SIZE,1), dtype=np.uint8)
 Y_train = np.zeros((Number_of_traininSet, IMAGE_SIZE, IMAGE_SIZE,1), dtype=np.bool)
